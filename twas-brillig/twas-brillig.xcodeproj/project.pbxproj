@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89260FAD205822F1007DE12C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89260FAC205822F1007DE12C /* AppDelegate.swift */; };
+		89260FAF205822F1007DE12C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89260FAE205822F1007DE12C /* RootViewController.swift */; };
+		89260FB1205822F1007DE12C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89260FB0205822F1007DE12C /* DataViewController.swift */; };
+		89260FB3205822F1007DE12C /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89260FB2205822F1007DE12C /* ModelController.swift */; };
+		89260FB6205822F1007DE12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89260FB4205822F1007DE12C /* Main.storyboard */; };
+		89260FB8205822F1007DE12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89260FB7205822F1007DE12C /* Assets.xcassets */; };
+		89260FBB205822F1007DE12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89260FB9205822F1007DE12C /* LaunchScreen.storyboard */; };
+		89260FC6205822F1007DE12C /* twas_brilligUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89260FC5205822F1007DE12C /* twas_brilligUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89260FC2205822F1007DE12C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89260FA1205822F0007DE12C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89260FA8205822F1007DE12C;
+			remoteInfo = "twas-brillig";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89260FA9205822F1007DE12C /* twas-brillig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twas-brillig.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89260FAC205822F1007DE12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89260FAE205822F1007DE12C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		89260FB0205822F1007DE12C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		89260FB2205822F1007DE12C /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		89260FB5205822F1007DE12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89260FB7205822F1007DE12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89260FBA205822F1007DE12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89260FBC205822F1007DE12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89260FC1205822F1007DE12C /* twas-brilligUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "twas-brilligUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89260FC5205822F1007DE12C /* twas_brilligUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twas_brilligUITests.swift; sourceTree = "<group>"; };
+		89260FC7205822F1007DE12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89260FA6205822F1007DE12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89260FBE205822F1007DE12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89260FA0205822F0007DE12C = {
+			isa = PBXGroup;
+			children = (
+				89260FAB205822F1007DE12C /* twas-brillig */,
+				89260FC4205822F1007DE12C /* twas-brilligUITests */,
+				89260FAA205822F1007DE12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89260FAA205822F1007DE12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89260FA9205822F1007DE12C /* twas-brillig.app */,
+				89260FC1205822F1007DE12C /* twas-brilligUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89260FAB205822F1007DE12C /* twas-brillig */ = {
+			isa = PBXGroup;
+			children = (
+				89260FAC205822F1007DE12C /* AppDelegate.swift */,
+				89260FAE205822F1007DE12C /* RootViewController.swift */,
+				89260FB0205822F1007DE12C /* DataViewController.swift */,
+				89260FB2205822F1007DE12C /* ModelController.swift */,
+				89260FB4205822F1007DE12C /* Main.storyboard */,
+				89260FB7205822F1007DE12C /* Assets.xcassets */,
+				89260FB9205822F1007DE12C /* LaunchScreen.storyboard */,
+				89260FBC205822F1007DE12C /* Info.plist */,
+			);
+			path = "twas-brillig";
+			sourceTree = "<group>";
+		};
+		89260FC4205822F1007DE12C /* twas-brilligUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89260FC5205822F1007DE12C /* twas_brilligUITests.swift */,
+				89260FC7205822F1007DE12C /* Info.plist */,
+			);
+			path = "twas-brilligUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89260FA8205822F1007DE12C /* twas-brillig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89260FCA205822F1007DE12C /* Build configuration list for PBXNativeTarget "twas-brillig" */;
+			buildPhases = (
+				89260FA5205822F1007DE12C /* Sources */,
+				89260FA6205822F1007DE12C /* Frameworks */,
+				89260FA7205822F1007DE12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twas-brillig";
+			productName = "twas-brillig";
+			productReference = 89260FA9205822F1007DE12C /* twas-brillig.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89260FC0205822F1007DE12C /* twas-brilligUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89260FCD205822F1007DE12C /* Build configuration list for PBXNativeTarget "twas-brilligUITests" */;
+			buildPhases = (
+				89260FBD205822F1007DE12C /* Sources */,
+				89260FBE205822F1007DE12C /* Frameworks */,
+				89260FBF205822F1007DE12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89260FC3205822F1007DE12C /* PBXTargetDependency */,
+			);
+			name = "twas-brilligUITests";
+			productName = "twas-brilligUITests";
+			productReference = 89260FC1205822F1007DE12C /* twas-brilligUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89260FA1205822F0007DE12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					89260FA8205822F1007DE12C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					89260FC0205822F1007DE12C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89260FA8205822F1007DE12C;
+					};
+				};
+			};
+			buildConfigurationList = 89260FA4205822F0007DE12C /* Build configuration list for PBXProject "twas-brillig" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89260FA0205822F0007DE12C;
+			productRefGroup = 89260FAA205822F1007DE12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89260FA8205822F1007DE12C /* twas-brillig */,
+				89260FC0205822F1007DE12C /* twas-brilligUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89260FA7205822F1007DE12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89260FBB205822F1007DE12C /* LaunchScreen.storyboard in Resources */,
+				89260FB8205822F1007DE12C /* Assets.xcassets in Resources */,
+				89260FB6205822F1007DE12C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89260FBF205822F1007DE12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89260FA5205822F1007DE12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89260FAF205822F1007DE12C /* RootViewController.swift in Sources */,
+				89260FB3205822F1007DE12C /* ModelController.swift in Sources */,
+				89260FB1205822F1007DE12C /* DataViewController.swift in Sources */,
+				89260FAD205822F1007DE12C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89260FBD205822F1007DE12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89260FC6205822F1007DE12C /* twas_brilligUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89260FC3205822F1007DE12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89260FA8205822F1007DE12C /* twas-brillig */;
+			targetProxy = 89260FC2205822F1007DE12C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89260FB4205822F1007DE12C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89260FB5205822F1007DE12C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89260FB9205822F1007DE12C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89260FBA205822F1007DE12C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89260FC8205822F1007DE12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89260FC9205822F1007DE12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89260FCB205822F1007DE12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = "twas-brillig/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.twas-brillig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89260FCC205822F1007DE12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = "twas-brillig/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.twas-brillig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89260FCE205822F1007DE12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "twas-brilligUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.twas-brilligUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "twas-brillig";
+			};
+			name = Debug;
+		};
+		89260FCF205822F1007DE12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "twas-brilligUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.twas-brilligUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "twas-brillig";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89260FA4205822F0007DE12C /* Build configuration list for PBXProject "twas-brillig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89260FC8205822F1007DE12C /* Debug */,
+				89260FC9205822F1007DE12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89260FCA205822F1007DE12C /* Build configuration list for PBXNativeTarget "twas-brillig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89260FCB205822F1007DE12C /* Debug */,
+				89260FCC205822F1007DE12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89260FCD205822F1007DE12C /* Build configuration list for PBXNativeTarget "twas-brilligUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89260FCE205822F1007DE12C /* Debug */,
+				89260FCF205822F1007DE12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89260FA1205822F0007DE12C /* Project object */;
+}
